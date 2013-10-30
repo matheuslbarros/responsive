@@ -21,18 +21,6 @@ class Button extends Html {
 			$this->setAttribute($name, $value);
 		}
 		
-		// if( get_class($event) == "Event" ) {
-			
-		// } else {
-			// $this->setAttribute("href", "#" . $event);
-		// }
-		
-	// public function Button($label = null, $action = null) {
-		
-		// $this->setAttribute("onclick", "form.submit()");
-		
-		// $this->setAttribute("href", "#" . $action);
-		
 		$this->addClass("fw-button");
 		$this->addClass("nice radius button");
 		
