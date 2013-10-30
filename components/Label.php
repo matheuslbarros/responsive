@@ -3,7 +3,7 @@
 /**
  * This class implements the label
  *
- * @author Matheus
+ * @author Matheus Lisboa de Barros
  */
 class Label extends Html {
 

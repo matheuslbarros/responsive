@@ -3,7 +3,7 @@
 /**
  * This class implements the form field
  *
- * @author Matheus
+ * @author Matheus Lisboa de Barros
  */
 abstract class Field extends Html {
 

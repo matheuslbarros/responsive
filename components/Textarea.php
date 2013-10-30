@@ -3,7 +3,7 @@
 /**
  * This class implements the textarea
  *
- * @author Matheus
+ * @author Matheus Lisboa de Barros
  */
 class Textarea extends Field {
 

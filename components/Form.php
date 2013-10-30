@@ -3,7 +3,7 @@
 /**
  * This class implements the form element
  *
- * @author Matheus
+ * @author Matheus Lisboa de Barros
  */
 class Form extends Html {
 

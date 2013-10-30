@@ -3,7 +3,7 @@
 /**
  * This class implements the html element
  *
- * @author Matheus
+ * @author Matheus Lisboa de Barros
  */
 class Html {
 

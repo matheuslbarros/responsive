@@ -3,7 +3,7 @@
 /**
  * This class implements an item of menu
  *
- * @author Matheus
+ * @author Matheus Lisboa de Barros
  */
 class Item extends Html {
 

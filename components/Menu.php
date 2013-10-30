@@ -3,7 +3,7 @@
 /**
  * This class implements the menu component
  *
- * @author Matheus
+ * @author Matheus Lisboa de Barros
  */
 class Menu extends Html {
 
@@ -33,6 +33,7 @@ class Menu extends Html {
 	*/
 	public function addItem($content) {
 		$this->add(new Item($content));
+		return $this;
 	}
 
 	/**
@@ -44,6 +45,7 @@ class Menu extends Html {
 	*/
 	public function addLink($name, $href = "#") {
 		$this->addItem(new Link($name, $href));
+		return $this;
 	}
 
 }

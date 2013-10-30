@@ -3,7 +3,7 @@
 /**
  * This class implements the grid
  *
- * @author Matheus
+ * @author Matheus Lisboa de Barros
  */
 class Grid extends Html {
 

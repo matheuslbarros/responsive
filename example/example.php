@@ -60,11 +60,13 @@ $Form->add(new Label("DESCRICAO", "Descrição"));
 $Form->add(new Textarea("DESCRICAO", "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."));
 
 $Form->add("<br />");
-$Form->add(new Button("Salvar", "salvar-usuario"));
 
-$Form->addStyle("padding", "20px");
-$Form->addStyle("border", "1px solid #ddd");
-$Form->addStyle("background-color", "#EFF5F7");
+$Form->add(new Button("Salvar"  , array(href => "#salvar"  , onclick => "alert('salvar clicado!')")));
+$Form->add(new Button("Cancelar", array(href => "#cancelar", onclick => "alert('cancelar clicado!')")));
+
+$Form->addStyle("border"    , "1px solid #DDD");
+$Form->addStyle("padding"   , "20px");
+$Form->addStyle("background", "#EFF5F7");
 
 $Grid = new Grid();
 $Grid->addRow(

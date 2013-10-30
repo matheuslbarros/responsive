@@ -3,7 +3,7 @@
 /**
  * This class implements the component tabs
  *
- * @author Matheus
+ * @author Matheus Lisboa de Barros
  */
 class Tabs extends Html {
 

@@ -3,7 +3,7 @@
 /**
  * This class implements the input password
  *
- * @author Matheus
+ * @author Matheus Lisboa de Barros
  */
 class InputPassword extends Field {
 

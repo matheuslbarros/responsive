@@ -3,7 +3,7 @@
 /**
  * This class implements the column of grid
  *
- * @author Matheus
+ * @author Matheus Lisboa de Barros
  */
 class Column extends Html {
 

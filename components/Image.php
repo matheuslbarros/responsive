@@ -3,7 +3,7 @@
 /**
  * This class implements the image element
  *
- * @author Matheus
+ * @author Matheus Lisboa de Barros
  */
 class Image extends Html {
 

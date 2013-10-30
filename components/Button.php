@@ -3,7 +3,7 @@
 /**
  * This class implements the button element
  *
- * @author Matheus
+ * @author Matheus Lisboa de Barros
  */
 class Button extends Html {
 
@@ -14,12 +14,25 @@ class Button extends Html {
 	* @param String $action action to execute
 	* @return void
 	*/
-	public function Button($label = null, $action = null) {
+	public function Button($label, $attributes = array("href" => "#")) {
 		parent::Html("a");
 		
-		$this->setAttribute("onclick", "form.submit()");
+		foreach((Array) $attributes as $name => $value) {
+			$this->setAttribute($name, $value);
+		}
 		
-		$this->setAttribute("href", "#" . $action);
+		// if( get_class($event) == "Event" ) {
+			
+		// } else {
+			// $this->setAttribute("href", "#" . $event);
+		// }
+		
+	// public function Button($label = null, $action = null) {
+		
+		// $this->setAttribute("onclick", "form.submit()");
+		
+		// $this->setAttribute("href", "#" . $action);
+		
 		$this->addClass("fw-button");
 		$this->addClass("nice radius button");
 		

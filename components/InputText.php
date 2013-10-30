@@ -3,7 +3,7 @@
 /**
  * This class implements the input text
  *
- * @author Matheus
+ * @author Matheus Lisboa de Barros
  */
 class InputText extends Field {
 

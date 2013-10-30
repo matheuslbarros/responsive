@@ -3,7 +3,7 @@
 /**
  * This class implements the link
  *
- * @author Matheus
+ * @author Matheus Lisboa de Barros
  */
 class Link extends Html {
 
