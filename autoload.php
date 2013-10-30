@@ -1,13 +1,7 @@
 <?php
 
-// <link rel="stylesheet" href="css/foundation.min.css" />
-// <script src="http://foundation.zurb.com/public/assets/marketing_docs.js"></script>
-
 // function __autoload($className) {
-	// $file = "components/" . $name . ".php";
-	// if( file_exists($file) ) {
-		// include_once($file);
-	// }
+	// include("components/" . $className . ".php");
 // }
 
 spl_autoload_register(
@@ -15,5 +9,3 @@ spl_autoload_register(
 		include("components/" . $className . ".php");
 	}
 );
-
-?>
