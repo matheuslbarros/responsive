@@ -1,0 +1,22 @@
+
+@font-face {
+	font-family: 'OpenSans'; src: url('../fonts/OpenSans-Light.ttf') format("truetype");
+	font-weight: light; font-weight: 300; font-style: normal;
+}
+
+* {
+	color: #4D4D4D;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 500;
+	font-family: "OpenSans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+}
+
+label {
+	margin: 10px 0;
+}
+
+p {
+	text-rendering: auto;
+}
